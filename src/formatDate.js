@@ -19,7 +19,7 @@ function formatDate(date, fromFormat, toFormat) {
     [fromFormat[2]]: dateArr[2],
   };
 
-  for (let i = 0; i < toFormat.length - 1; i++) {
+  for (let i = 0; i < toFormat.length; i++) {
     const formatPart = toFormat[i];
 
     if (formatPart === 'DD') {
